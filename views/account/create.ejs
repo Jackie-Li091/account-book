@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create doc</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h2>Add list</h2>
+            <hr />
+            <form method="post" action="/account">
+                <div>
+                    <label for="item">Item:</label>
+                    <input name="title" type="text" class="form-control" id="item" />
+                </div>
+                <div>
+                    <label for="time">Time:</label>
+                    <input name="time" type="text" class="form-control" id="time" />
+                </div>
+                <div>
+                    <label for="type">Type:</label>
+                    <select name="type" id="type">
+                        <option value="-1">Out</option>
+                        <option value="1">In</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="account">Account:</label>
+                    <input name="account" type="text" class="form-control" id="account" />
+                </div>
+                <div>
+                    <label for="remarks">Remark:</label>
+                    <textarea name="remarks" type="text" class="form-control" id="remarks" ></textarea>
+                </div>
+                <hr>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
